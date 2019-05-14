@@ -1,0 +1,35 @@
+
+
+JavaScript debugging commands
+============================
+1) To set breakPoint ,simply click on the grey margin where u see line  numbers in the Sources tab
+2)Stepping thorough the code
+	->Step Over=F10
+	->Step into=F11
+	->Step out=shift+F11
+	->continue=F8
+3) To set conditional breakpoint ,right click on the grey margin and select "Add conditional breakpoint"
+
+Eclipse debuging commands
+=============================
+Step filtering==>We want to debug our code and skip java language classes or other third party liberaries.
+procedure==>right click on debug window current line->select edit step filters->click on use step filter->check java.* checkbox
+Step into==>If no method or constrcutor to step into ,just does same as step over
+
+Note:If u are at end of a called method or constructor,all 3 step method will do same thing return to the calling method.
+F5-Step Into
+F6-Step Over
+F7-Step return
+ctr+shift+i->used for inspect (to see info)
+alt-shift-up=>select valid expression that encloses current selection .
+alt-shift-down=>restores previous selection.
+
+Resume:=>continue runnning the program until it complete or until the next breakpoint.
+Run to Line(ctr-R)=>Run to the selected line of code and suspended.
+
+How to Examine variables and expressions
+=================================
+To open expression->window-show view-expression.
+To open dispaly view->window-show view -display.
+for display have two names "code assist" and "content assist".
+->type in display and inspect (again once inspect it will send control to expression view -right click on view and shoe in expression)or execute the code.
