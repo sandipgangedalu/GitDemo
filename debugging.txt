@@ -1,7 +1,5 @@
 
 
-JavaScript debugging commands
-============================
 1) To set breakPoint ,simply click on the grey margin where u see line  numbers in the Sources tab
 2)Stepping thorough the code
 	->Step Over=F10
